@@ -55,8 +55,8 @@ alias \
   clone="git clone" \
   commit="git commit -m" \
   fetch="git fetch" \
-  pull="git pull origin" \
-  push="git push origin" \
+  pull="git pull" \
+  push="git push" \
   stat="git status" \
   tag="git tag" \
   newtag="git tag -a"
@@ -69,3 +69,4 @@ alias \
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"
